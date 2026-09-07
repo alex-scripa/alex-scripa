@@ -70,6 +70,21 @@ An open research and engineering platform for collecting public real-estate list
 
 → [View scrapping-999](https://github.com/alex-scripa/scrapping-999)
 
+### Workflow Platform
+
+A secure, workspace-based multi-tenant platform with identity, access control, billing and provider-neutral workflow integrations.
+
+- Designed multi-tenant workspaces with users, roles, invitations and access control.
+- Implemented stateless JWT authentication, email verification, password reset and role-based authorization.
+- Built billing and invoice lifecycle management backed by PostgreSQL and Flyway migrations.
+- Created a generic connector boundary with neutral provider-facing methods.
+- Hardened API security with explicit CORS allowlists and safe HTTP headers.
+- Added validation, exception handling, OpenAPI documentation, Docker support and automated tests.
+
+`PostgreSQL` `Flyway` `JWT` `OpenAPI` `Docker` `Automated tests`
+
+→ [View workflow-platform](https://github.com/alex-scripa/workflow-platform)
+
 ## Current Focus
 
 - Production-grade Applied AI systems
